@@ -1,0 +1,36 @@
+# Personal learning state
+/LEARNING_PLAN.local.md
+/GUIDE.md
+/research.local/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated outputs and raw runs
+build/
+dist/
+work/
+runs/
+*.log
+*.tmp
+*.exe
+*.obj
+*.o
+*.pdb
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
